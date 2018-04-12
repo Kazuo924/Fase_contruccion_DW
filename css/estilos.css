@@ -14,7 +14,7 @@
 body{
 	font-family: Bauhaus_Demi;
 	color: #ffffff;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
 header{
@@ -53,8 +53,9 @@ section#principal,aside{
 	max-width: 960px;
 	min-height: 400px;
 	vertical-align: top;
-	width: 69%;
+	width: 60%;
 	color: #333;
+	padding: 1em;
 
 }
 
@@ -87,12 +88,25 @@ h2{
 	font-size: 1.5em;
 }
 
+strong#negrita{
+	font-size: 1em;
+}
+
+p{
+	text-align: justify;
+	font-size: 1em;
+}
+
+p#p-titulo1{
+	text-align: justify;
+	font-size: 1em;
+}
 
 /* barras de menu */
 
 nav {
 	width: auto;
-	height: 58px;
+	height: 60px;
 	background: #004669;
 	display: flex;
 	justify-content: center;
@@ -105,7 +119,7 @@ nav ul {
 
 nav ul li a {
 	display: block;
-	padding: 20px 55px;
+	padding: 19px 50px;
 	color: #fff;
 	text-decoration: none;
 }

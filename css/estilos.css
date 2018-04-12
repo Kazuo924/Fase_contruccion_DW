@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: Verdana;
+	color: #ffffff;
+	font-size: 1em;
+}
+
+header{
+	background: #004669;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0.25em;
+	text-align: center;
+}
+
+footer{
+	background: #004669;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0.25em;
+	text-align: center;
+}
+
+
+section#contenedor{
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0;
+	text-align: center;
+}
+
+section#principal,aside{
+	background: #E8E8E8;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.2em auto;
+	max-width: 960px;
+	min-height: 400px;
+	vertical-align: top;
+	width: 69%;
+	color: #333;
+
+}
+
+article{
+	background: #E8E8E8;
+	border-radius: 0.5em;
+	min-height: 360px;
+	padding: 0.25em;
+	margin: 0.5em auto;
+	color: #666;
+}
+
+aside{
+	background: #004669;
+	width: 30%;
+	font-size: 1em;
+	color: #ffffff;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+
+/* barras de menu */
+
+nav {
+	width: auto;
+	height: 58px;
+	background: #004669;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li a {
+	display: block;
+	padding: 20px 55px;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background: #e7b200;
+	color: #333;
+}
+
+nav ul ul{
+	visibility: hidden;
+	position: absolute;
+	top: 190px;
+	display: block;
+	background: #e7b200;
+	transform: translateX(30%);
+	opacity: 0;
+	transition: all 1s
+}
+
+nav ul li a span{
+	transition: all .6s
+}
+
+nav ul li a:hover span{
+	transform: translateY(10px);
+	opacity: 0;
+}
+
+nav ul li:hover ul{
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(0%);
+}
+
+header {
+	width: auto;
+	height: 110px;
+	background: #004669;
+	display: flex;
+}
+
+header ul {
+	display: flex;
+	list-style: none;
+}
+
+header ul li a {
+	display: block;
+	padding: 20px 90px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+header ul li.headertext a {
+	display: block;
+	padding: 20px 10px;
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+
+header ul li.headerlogo a {
+	display: block;
+	padding: 20px 10px;
+	color: #fff;
+	text-decoration: none;
+	justify-content: flex-end;
+}*/
+
+/*fin barras de menu */

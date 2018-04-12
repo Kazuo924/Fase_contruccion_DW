@@ -3,19 +3,29 @@
 	margin: 0;
 }
 
+@font-face{
+
+	font-family: Bauhaus_Demi;
+	src: url("../fonts/Bauhaus_Demi.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
 body{
-	font-family: Verdana;
+	font-family: Bauhaus_Demi;
 	color: #ffffff;
 	font-size: 1em;
 }
 
 header{
+	font-family: Bauhaus_Demi;
 	background: #004669;
 	border-radius: 0.5em;
 	margin: 0.5em auto;
 	max-width: 960px;
 	padding: 0.25em;
 	text-align: center;
+	font-size: 20px;
 }
 
 footer{
@@ -55,6 +65,15 @@ article{
 	padding: 0.25em;
 	margin: 0.5em auto;
 	color: #666;
+}
+
+iframe{
+	border-radius: 0.5em;
+	min-height: 360px;
+	padding: 0.25em;
+	margin: 0.5em auto;
+	width: 95%;
+	
 }
 
 aside{

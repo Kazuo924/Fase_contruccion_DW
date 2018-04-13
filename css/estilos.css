@@ -214,4 +214,116 @@ header ul li.headerlogo a {
 	margin: 0px 0px 0px 0px;
 }
 
-/* fin de imagenes */
+p {
+  font: 22pt sans-serif;
+  margin: 20px 20px 0px 20px;
+}
+
+/* Estilo de la sopa de letras */
+
+#juego {
+	border-radius: 0.5em;
+	min-height: 360px;
+	padding: 0.25em;
+	margin: 0.5em auto;
+	width: 95%;
+}
+
+#juego div {
+
+	background: #005883;
+ 	width: 100%;
+  	margin: 0 auto;
+}
+
+
+#juego .puzzleSquare {
+
+	font-family: Bauhaus_Demi;
+	color: #FFFFFF;
+  	height: 30px;
+  	width: 30px;
+  	text-transform: uppercase;
+ 	background-color: #005883;
+  	border: 0;
+  
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+
+#juego .selected {
+  background-color: orange;
+}
+
+
+#juego .found {
+  background-color: red;
+  color: white;
+}
+
+#juego .solved {
+  background-color: purple;
+  color: white;
+}
+
+
+#juego .complete {
+  background-color: green;
+}
+
+/* Estilo de las letras a buscar */
+
+#contenedor{
+
+	border-radius: 0.5em;
+	min-height: 360px;
+	padding: 0.25em;
+	margin: 0.5em auto;
+	width: 95%;
+ 
+}
+#Palabras {
+	
+	
+	padding-top: 0px;
+  	-moz-column-count: 1;
+  	-moz-column-gap: 20px;
+  	-webkit-column-count: 1;
+ 	 -webkit-column-gap: 10px;
+ 	 column-count: 1;
+  	column-gap: 20px;
+  	width: 40%px;
+}
+
+#Palabras ul {
+  list-style-type: none;
+}
+
+#Palabras li {
+  padding: 3px 0;
+  font-family: Bauhaus_Demi;
+  color: #000000;
+}
+
+
+#Palabras .wordFound {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Estilo del botón resolver */
+#solve {
+
+	font-size: 120%;
+  margin: 0 20px;
+}
+
+/* Estilo del botón recargar */
+#renew{
+
+	font-size: 120%;
+  	margin: 0 20px;
+}

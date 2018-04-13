@@ -35,6 +35,7 @@ footer{
 	max-width: 960px;
 	padding: 0.25em;
 	text-align: center;
+	font-size: 0.8em;
 }
 
 
@@ -193,3 +194,24 @@ header ul li.headerlogo a {
 }*/
 
 /*fin barras de menu */
+
+/* imagenes */
+
+.dropshadow {
+	float:left;
+	clear:left;
+	background: url(imagenes/shadowAlpha.png) no-repeat bottom right !important;
+	background: url(imagenes/shadow.gif) no-repeat bottom right;
+	margin: 10px 0 10px 10px !important;
+	margin: 10px 0 10px 5px;
+	padding: 0.25px;
+}
+
+.innerbox {
+
+	bottom:6px;
+	right: 6px;
+	margin: 0px 0px 0px 0px;
+}
+
+/* fin de imagenes */

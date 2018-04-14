@@ -7,6 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+    <script type="text/javascript" src="js/wordfind.js"></script> 
+    <script type="text/javascript" src="js/wordfindgame.js"></script>
 </head>
 <body>
 	<header>
@@ -47,9 +50,33 @@
 	</nav>
 	<section id="contenedor">
 		<section id="principal">
-			<h2>Actividad 1</h2>
+			<h2>Sopa de letras</h2>
 			<article>
-				texto
+				<div id="contenedor">
+
+    				<div id='Palabras'></div>
+    				
+    				<div id='juego'></div>
+
+    				<div><button id='solve'>Resolver el juego</button></div>
+					<p></p>
+    				<div><button id="renew">Recargar juego</button> 
+    				</div>
+
+    			</div>
+
+    			  <script>
+    var words = ['CYBERDELINCUENTE','VIRUS','HACKER','ATAQUES','SEGURIDAD','CONTRASEÑA','MALWARE','TECNOLOGIA','ANTIVIRUS'];
+    var gamePuzzle = wordfindgame.create(words, '#juego', '#Palabras'); 
+        
+    var puzzle = wordfind.newPuzzle(words,{height: 10, width:10, fillBlanks: false});
+    wordfind.print(puzzle);   
+        
+    $('#solve').click( function() {wordfindgame.solve(gamePuzzle, words);});
+
+    $('#renew').click( function() {location.reload();});
+        
+    </script>
 			</article>
 		</section>
 		<aside>
